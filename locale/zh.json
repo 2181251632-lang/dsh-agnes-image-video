@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Agnes 图像与视频",
+    "description": "调用 Agnes Image 2.5 Flash 与 Agnes Video 2.5 Flash 生成图片和视频。图片支持文生图、图生图和多图合成，可指定 1K–4K 档位与八种画幅；视频支持文生视频、首尾帧控制和图片/音频参考，输出固定 720P。两个工具共用同一个 API Key（环境变量 AGNES_API_KEY，或凭据库里的 AGENS_API_KEY），结果分别保存到会话目录的 agnes-images/ 和 agnes-videos/ 下并直接显示。",
+    "detail": "docs/DETAIL.md"
+  }
+}
