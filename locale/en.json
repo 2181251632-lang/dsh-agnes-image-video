@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Agnes Image & Video",
+    "description": "Generate images and videos with Agnes Image 2.5 Flash and Agnes Video 2.5 Flash. Images support text-to-image, image-to-image and multi-image composition with 1K–4K tiers and eight aspect ratios; videos support text-to-video, first/last frame control and image or audio references, always at 720P. Both tools share one API key (the AGNES_API_KEY environment variable, or AGENS_API_KEY in the credential store) and save results into agnes-images/ and agnes-videos/ under the session directory, where they are shown inline.",
+    "detail": "docs/DETAIL.md"
+  }
+}
