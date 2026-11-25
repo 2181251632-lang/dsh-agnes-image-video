@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" fill="none">
+  <defs>
+    <linearGradient id="agnes-preview-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4C8DFF"/>
+      <stop offset="1" stop-color="#B24CFF"/>
+    </linearGradient>
+    <linearGradient id="agnes-preview-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#B24CFF" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 左：图片卡片（文生图 / 图生图 / 多图合成） -->
+  <rect x="40.5" y="58.5" width="248" height="183" rx="14" stroke="url(#agnes-preview-accent)" stroke-width="2.5" stroke-opacity="0.55"/>
+  <rect x="40.5" y="58.5" width="248" height="183" rx="14" fill="url(#agnes-preview-sky)"/>
+  <path d="M62 216 L110 158 L146 198 L176 162 L232 216" stroke="url(#agnes-preview-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="228" cy="98" r="13" stroke="url(#agnes-preview-accent)" stroke-width="3"/>
+  <path d="M226 91 L236 98 L226 105 Z" fill="url(#agnes-preview-accent)"/>
+
+  <!-- 中间连接：一张图喂给视频 -->
+  <path d="M300 150 H340" stroke="url(#agnes-preview-accent)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 7" stroke-opacity="0.7"/>
+  <path d="M334 143 L344 150 L334 157" stroke="url(#agnes-preview-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 右：视频卡片（text / keyframe / reference） -->
+  <rect x="352.5" y="58.5" width="248" height="183" rx="14" stroke="url(#agnes-preview-accent)" stroke-width="2.5" stroke-opacity="0.55"/>
+  <rect x="352.5" y="58.5" width="248" height="183" rx="14" fill="url(#agnes-preview-sky)"/>
+  <circle cx="476.5" cy="140" r="26" stroke="url(#agnes-preview-accent)" stroke-width="3"/>
+  <path d="M469 127 L489 140 L469 153 Z" fill="url(#agnes-preview-accent)"/>
+
+  <!-- 时间轴 + 帧格 -->
+  <path d="M376 206 H576" stroke="url(#agnes-preview-accent)" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.45"/>
+  <rect x="378" y="196" width="26" height="20" rx="4" stroke="url(#agnes-preview-accent)" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="416" y="196" width="26" height="20" rx="4" stroke="url(#agnes-preview-accent)" stroke-width="2" stroke-opacity="0.6"/>
+  <rect x="454" y="196" width="26" height="20" rx="4" stroke="url(#agnes-preview-accent)" stroke-width="2" stroke-opacity="0.4"/>
+  <rect x="492" y="196" width="26" height="20" rx="4" stroke="url(#agnes-preview-accent)" stroke-width="2" stroke-opacity="0.28"/>
+  <circle cx="538" cy="206" r="7" fill="url(#agnes-preview-accent)"/>
+
+  <!-- 底部：共用同一把 key 的暗示（两个点由一条线连着） -->
+  <path d="M164 262 H476" stroke="url(#agnes-preview-accent)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.35"/>
+  <circle cx="164" cy="262" r="6" fill="url(#agnes-preview-accent)"/>
+  <circle cx="476" cy="262" r="6" fill="url(#agnes-preview-accent)"/>
+  <circle cx="320" cy="262" r="4" stroke="url(#agnes-preview-accent)" stroke-width="2" fill="none" stroke-opacity="0.8"/>
+</svg>
