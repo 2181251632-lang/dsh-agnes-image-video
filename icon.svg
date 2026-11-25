@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <defs>
+    <linearGradient id="agnes-frame" x1="8" y1="7" x2="28" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C8DFF"/>
+      <stop offset="1" stop-color="#B24CFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="7.5" y="8.5" width="21" height="16" rx="3.2" stroke="url(#agnes-frame)" stroke-width="2.2"/>
+  <path d="M11 21.5 L15.2 16.6 L18.3 20 L20.9 17.2 L25 21.5" stroke="url(#agnes-frame)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22.6" cy="12.9" r="1.6" fill="url(#agnes-frame)"/>
+  <path d="M18 27.6 V29.4 M14.4 27.6 L14.4 28.6 M21.6 27.6 L21.6 28.6" stroke="url(#agnes-frame)" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
