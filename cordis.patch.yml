@@ -1,0 +1,14 @@
+# This bundle inserts one Host plugin row that registers two tools:
+#   - `agnes_image_generate` : text-to-image, image-to-image, multi-image compose
+#   - `agnes_video_generate` : text / keyframe / reference video tasks
+#
+# Both tools read the same Agnes API key, resolved at call time from
+# `AGNES_API_KEY` (process environment, then the host credential store).
+#
+# The entry name is PATH-RELATIVE on purpose: DSH anchors a relative `name:` to
+# the directory of the patch file that declared it, so this row always loads this
+# bundle's own `index.js` whatever the package folder is called.
+
+- insert:
+    - id: agnes-media
+      name: './index.js'
